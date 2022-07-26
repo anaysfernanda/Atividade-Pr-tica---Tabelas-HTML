@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabelas HTML</title>
+    <style>
+      td {
+        border: 1px solid black;
+        padding: 20px;
+        width: 70px;
+      }
+      table {
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <h1>Atividade Prática - Tabelas</h1>
+      <a href="./Tabelas.html">Exercício 1</a><br />
+      <a href="./Tabelas2.html" target="_blank">Exercício 2</a><br />
+      <a href="./Tabelas3.html" target="_blank">Exercício 3</a><br />
+      <br />
+    </nav>
+    <section>
+      <table>
+        <thead>
+          <tr style="text-align: left">
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="text-align: center">
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+          </tr>
+          <tr style="text-align: right">
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+          </tr>
+        </tbody>
+      </table>
+      <br />
+      <table>
+        <thead>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td colspan="3" style="text-align: center">4</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+          </tr>
+        </tbody>
+      </table>
+      <br />
+      <table>
+        <tr>
+          <td>1</td>
+          <td>2</td>
+          <td rowspan="3">3</td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align: center">4</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>6</td>
+        </tr>
+      </table>
+    </section>
+  </body>
+</html>
